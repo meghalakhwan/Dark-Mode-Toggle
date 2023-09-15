@@ -34,16 +34,19 @@ body
     animation: toggleOff 0.4s linear forwards;
   }
   
-  .input:checked + .label {
+  .input:checked + .label 
+  {
     background-color: white;
   }
   
-  .input:checked + .label .circle {
+  .input:checked + .label .circle
+   {
     animation: toggleOn 0.4s linear forwards;
     background-color: black;
   }
   
-  @keyframes toggleOn {
+  @keyframes toggleOn 
+  {
     0% {
       transform: translateX(0);
     }
@@ -52,7 +55,8 @@ body
     }
   }
   
-  @keyframes toggleOff {
+  @keyframes toggleOff 
+  {
     0% {
       transform: translateX(40px);
     }
