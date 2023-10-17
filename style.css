@@ -23,7 +23,8 @@ body
     cursor: pointer;
   }
   
-  .circle {
+  .circle 
+  {
     width: 34px;
     background-color: white;
     height: 34px;
@@ -40,7 +41,7 @@ body
   }
   
   .input:checked + .label .circle
-   {
+  {
     animation: toggleOn 0.4s linear forwards;
     background-color: black;
   }
