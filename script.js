@@ -6,8 +6,7 @@ inputEl.checked = JSON.parse(localStorage.getItem("mode"));
 
 updateBody();
 
-function updateBody()
- {
+function updateBody() {
   if (inputEl.checked) {
     bodyEl.style.background = "black";
   } else {
