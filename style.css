@@ -39,7 +39,6 @@ body {
   animation: toggleOn 0.4s linear forwards;
   background-color: black;
 }
-
 @keyframes toggleOn {
   0% {
     transform: translateX(0);
