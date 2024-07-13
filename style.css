@@ -48,6 +48,7 @@ body {
   }
 }
 
+
 @keyframes toggleOff {
   0% {
     transform: translateX(40px);
